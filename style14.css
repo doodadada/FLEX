@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.container{
+    width:2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view{
+    width:1200px;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view img{
+    width:600px;
+    height:600px;
+}
+.rect{
+    width:600px;
+    height:600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px dotted red;
+    box-sizing: border-box;
+}
+
+.segment{
+    display:flex;
+    width:600px;
+    height:190px;
+    box-sizing: border-box;
+}
+.segment .text{
+    width:400px;
+    height:190px;
+}
+.segment .title{
+    width:400px;
+    height:60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 3px solid black;
+    border-bottom: 5px double black;
+    font-size:180%;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.segment .description{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    width:400px;
+    height:130px;
+    border-bottom: 3px solid black;
+    box-sizing: border-box;
+}
+.segment img{
+    width:190px;
+    height:190px;
+    border-radius: 50%;
+    overflow:hidden;
+}
